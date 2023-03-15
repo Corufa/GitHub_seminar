@@ -29,7 +29,8 @@ GitHubは，Gitの仕組みを利用してソースコードの編集・保存�
 # 3. GitHubからプログラムを実行する
 1. [Git_seminar](https://github.com/Corufa/Git_seminar)をダウンロードする
 
-    rosrun lsd_slam_core dataset_slam _files:=<files> _hz:=<hz> _calib:=<calibration_file>
+Alternatively, you can specify a calibration file using 
 
-Here, `<files>` can either be a folder containing image files (which will be sorted alphabetically), or a text file containing one image file per line. `<hz
-    
+    rosrun lsd_slam_core live_slam /image:=<yourstreamtopic> _calib:=<calibration_file>
+
+In this case, the camera_info topic is ignored, and images may also be radially distorted. See the Camera Calibration section for details on the calibration file format.
