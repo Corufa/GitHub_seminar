@@ -4,7 +4,7 @@ GitHubによる演習を交えながらGitの仕組みを学びます．
 想定学習時間 : 60 min
 
 ## 推奨環境
-Windows : コマンドプロンプト，Windows PowerShell  
+Windows : [Git Bash](https://gitforwindows.org/)  
 Mac : ターミナル
 
 # 1. Git とは
@@ -22,6 +22,12 @@ GitHubは，Gitの仕組みを利用してソースコードの編集・保存�
 ・データをGitHub上で共有すると進捗把握が容易になり、コメント機能を活用してコミュニケーションツールのような使い方もできる  
 ・世界中のユーザーが作成した様々なプログラムを参照できる
 
-# 2. GitHubに慣れる
+# 3. GitHubに慣れる
 1. まずは，[このサイト](https://qiita.com/ayatokura/items/9eabb7ae20752e6dc79d)を参考にしてGitHubアカウントを作成してみましょう．
 2. [Git_seminar](https://github.com/Corufa/Git_seminar)の[Issues](https://github.com/Corufa/Git_seminar/issues)にコメントしてみましょう．
+
+# 3. GitHubからプログラムを実行する
+1. [Git_seminar](https://github.com/Corufa/Git_seminar)をダウンロードする
+
+    rosrun lsd_slam_core live_slam /image:=<yourstreamtopic> _calib:=<calibration_file>
+    
