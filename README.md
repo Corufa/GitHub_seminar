@@ -27,10 +27,8 @@ GitHubは，Gitの仕組みを利用してソースコードの編集・保存�
 2. [Git_seminar](https://github.com/Corufa/Git_seminar)の[Issues](https://github.com/Corufa/Git_seminar/issues)にコメントしてみましょう．
 
 # 3. GitHubからプログラムを実行する
-1. [Git_seminar](https://github.com/Corufa/Git_seminar)をダウンロードする
-
-Alternatively, you can specify a calibration file using 
-
+1. [Git_seminar](https://github.com/Corufa/Git_seminar)をダウンロードする 
+```
     rosrun lsd_slam_core live_slam /image:=<yourstreamtopic> _calib:=<calibration_file>
-
+```
 In this case, the camera_info topic is ignored, and images may also be radially distorted. See the Camera Calibration section for details on the calibration file format.
