@@ -26,9 +26,15 @@ GitHubは，Gitの仕組みを利用してソースコードの編集・保存�
 1. まずは，[このサイト](https://qiita.com/ayatokura/items/9eabb7ae20752e6dc79d)を参考にしてGitHubアカウントを作成してみましょう．
 2. [Git_seminar](https://github.com/Corufa/Git_seminar)の[Issues](https://github.com/Corufa/Git_seminar/issues)にコメントしてみましょう．
 
-# 3. GitHubからプログラムを実行する
-1. [Git_seminar](https://github.com/Corufa/Git_seminar)をダウンロードする 
+# 4. GitHubからプログラムを実行する(1,2はWindows向け)
+1. [Git Bash](https://gitforwindows.org/)をダウンロード
+2. Microsoft Storeからpython3.10をダウンロード 
+3. [Git_seminar](https://github.com/Corufa/Git_seminar)をダウンロード
 ```
 git clone http://リポジトリのurl/プロジェクト名.git
 ```
-In this case, the camera_info topic is ignored, and images may also be radially distorted. See the Camera Calibration section for details on the calibration file format.
+4. `test.py`を実行する
+```
+python test.py
+```
+`Hello World`と表示されたら成功
